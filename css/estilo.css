@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body,html{
+    height: 100%;
+    margin: 0;
+    
+}
+
+.bg{
+
+    background-image: url(../imagens/ceuCom_nuvens.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#menu_superior ul {
+    
+    list-style: none;
+    padding: 0;
+    background-color: aliceblue;
+    
+}
+
+#menu_superior ul li{
+    display: inline;
+    
+}
+
+#menu_superior ul li a{
+    color:rgb(3, 30, 117);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    
+}
+
+#menu_superior ul li a:hover{
+    background-color:rgb(236, 183, 183);
+
+}
+
+#menu_superior ul li:last-child a{
+    float: right;
+    background-color:rgb(123, 194, 244);
+}
+/* fotter */
+
+footer {
+    width: 100%;
+    background-color:rgb(123, 194, 244);
+
+}
+
+footer .linha1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer ul{
+    list-style: none;
+    margin: 2px;
+    padding: 0px;
+
+    height: 330;
+    
+}
+footer h5{
+    text-align: center;
+    color:lightyellow;
+   
+    font-family: 'Open Sans', sans-serif;
+    background-color:rgb(229, 92, 239);
+    border-radius: 15px;
+
+    padding:  0px 10px 0px 10px;
+    margin-bottom: 5px;
+
+}
+
+footer .linha1 ul li {
+    text-align: center;
+    color: lightyellow;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+footer .linha1 a:hover{
+    color: rebeccapurple;
+}
+
+footer .linha1 ul li a{
+    color: lightyellow;
+    text-decoration: none;
+}
+
+
+footer .endereco{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: lightyellow;
+    text-align: center;
+    width: 20%;
+}
+
+footer .linha2{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    margin:  0px;
+    padding: 10px;
+}
+
+footer .linha2 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: lightyellow;
+    text-decoration: none;
+    padding: 7px;
+}
+footer .linha2 a:hover{
+    color: rebeccapurple;
+
+}
+
+@media only screen and (max-width: 600px){
+    #menu_superior{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0px;
+
+
+    }
+    #menu_superior a{
+        display: flex;
+        height: 50px;
+        align-items: center;
+        
+    }
+    #menu_superior button{
+        width: 100px;
+        margin:0px;
+
+    }
+
+
+}
