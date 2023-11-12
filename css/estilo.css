@@ -1,8 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+ 
+ /**importação de fonte*/
+ @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Nunito+Sans:opsz,wght@6..12,200&family=Oswald:wght@200;400;500;600;700&display=swap');
+   
+    body{
+        margin: 0px; /*margin externa*/
+        padding: 0px; /*margin interna*/
+    }
+    
+    #superior{
+        width: 100%;
+        height: 80px;
+        border: 1px solid rgb(117, 171, 224);
+        
+        padding: 5; /*margin interna*/
+        background-color: rgb(106, 178, 240);
+         
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        font-family: 'Archivo'; /*fonte do import Archivo*/
+        border-bottom: 2px;
+    
+    }
+
+    #menu a{
+        color:rgb(243, 240, 247); /*corda fonte */
+        
+        font-size: 25px; /*tamanho da fonte*/
+        font-weight: 800;/*grosura da fonte*/
+        text-decoration: none; /*tira o inderline do link*/
+        
+        margin-right: 25px; /* espaço entre palavras*/
+       
+        margin-left: 60px;
+       
+    }
+    #superior div a:hover{
+        color:hotpink;
+    }
+
+   
+
+        #superior button{
+            margin-right: 9%;
+            background-color: rgb(237, 237, 243);
+            border: none; /*define borda nessa casa está sem borda */
+            border-radius: 12%;   /*  define se vai ficar quanto arrendondada*/
+            
+            height: 34px; /*define comprimento*/
+            width: 80px; /*define largura*/
+
+            font-family: 'Archivo';/*modelo da fonte dentro do botão*/
+            font-size: 18px; /*tamanho da fonte*/
+            font-weight: 600; /*grosura da fonte*/
+            color:rgb(11, 122, 234) /*cor da letra dentro ddo botão*/
+            
+            
+            
+
+
+        }
+
+        #superior button:hover{
+            color: hotpink;
+        }
 
 
 
-/*.bg{
+
+
+/*
+body,html{
+    height: 100%;
+    margin: 0;
+    
+}
+
+.bg{
 
     background-image: url(../imagens/ceuCom_nuvens.jpg);
     background-repeat: no-repeat;
@@ -11,11 +85,13 @@
     background-attachment: fixed;
     font-family: 'Open Sans', sans-serif;
 }
-*/
 
-#menu_superior  {
+
+#menu_superior ul {
     
-    
+    list-style: none;
+    padding: 0;
+    background-color: aliceblue;
     
 }
 
@@ -42,11 +118,9 @@
     float: right;
     background-color:rgb(123, 194, 244);
 }
-/* fotter */
+ fotter 
 
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     background-color:rgb(123, 194, 244);
 
@@ -126,6 +200,7 @@ footer .linha2 a:hover{
     color: rebeccapurple;
 
 }
+*/
 
 @media only screen and (max-width: 600px){
     #menu_superior{
