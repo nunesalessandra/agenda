@@ -51,6 +51,8 @@ body,html{
 /* fotter */
 
 footer {
+    position: fixed;
+    bottom: 0;
     width: 100%;
     background-color:rgb(123, 194, 244);
 
